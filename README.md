@@ -1,1 +1,3 @@
-# repository
+# Repository
+
+Repository pattern abstraction
