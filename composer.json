@@ -1,0 +1,30 @@
+{
+    "name": "inneuron/repository",
+    "description": "Repository pattern abstraction",
+    "require": {
+    },
+    "require-dev": {
+        "illuminate/database": "^5.3@dev",
+        "phpunit/phpunit": "^5.2@dev",
+        "mockery/mockery": "^1.0@dev",
+        "phpspec/phpspec": "^2.2@dev"
+    },
+    "autoload": {
+        "psr-4": {
+            "Inneuron\\Repository\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Inneuron\\Repository\\Stubs\\": "stub"
+        }
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Azri Ismail",
+            "email": "mazri.iar@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
